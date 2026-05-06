@@ -8,7 +8,7 @@ title: Multiple Parson's Problems on One Page
 # Parsons Practice
 
 ## Testing of Parsons [Trial]
-Re-arrange the blocks below so that they calculate the total marks
+Re-arrange the blocks below so that they find the highest mark.
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -19,25 +19,11 @@ Re-arrange the blocks below so that they calculate the total marks
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "marklist = [10,20,30]
-\n" +
-    "total = 0
-\n" +
-    "for i in marklist:
-\n" +
-    "    total += i
-\n" +
-    "print(total)
-\n" +
-    "total + i
-\n" +
-    "#distractor
-\n" +
-    "print(&quot;total&quot;)
-\n" +
-    "#distractor
-\n" +
-    "for i in range(marklist):#distractor";
+  var initial = "marklist = [10,20,30]\n" +
+    "print(max(marklist))\n" +
+    "print(max)\n" +
+    "#distractor\n" +
+    "print(max[marklist])#distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
