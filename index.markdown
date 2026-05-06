@@ -8,7 +8,6 @@ title: Multiple Parson's Problems on One Page
 # Parsons Practice
 
 ## Testing of Parsons [Trial]
-Re-arrange the blocks below so that they find the highest mark.
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
